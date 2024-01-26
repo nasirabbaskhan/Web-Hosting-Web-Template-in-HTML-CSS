@@ -1,0 +1,291 @@
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #131379;
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    font-size: 25px;
+    margin: 0px 0 0 20px;
+}
+
+span {
+    color: red;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.firstsection {
+    margin: 60px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.firstsection h1 {
+    font-size: 35px;
+    word-spacing: 3px;
+
+}
+
+.firstsection p {
+    font-size: 14px;
+
+}
+
+
+
+.btn {
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 11px;
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: grey;
+
+
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.secondsection {
+    margin: 35px 0 0 0px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-right: 20px;
+}
+
+.input {
+
+    text-align: start;
+}
+
+.input input {
+
+    padding: 15px 210px;
+}
+
+.search {
+    margin-left: 5px;
+
+}
+
+.search button {
+    padding: 17px 35px;
+    background-color: #131379;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.thirdsection {
+    height: 700px;
+    background-color: #bfb9b9;
+
+}
+
+
+.thirdhead {
+    font-size: 32px;
+    text-align: center;
+    padding: 24px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+
+.box ul {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.box ul li {
+    list-style: none;
+    padding: 12px 34px;
+    border-bottom: 2px solid grey;
+}
+
+.bg {
+    background-color: #e1e0e0;
+    font-size: 2.3rem;
+}
+
+.bg1 {
+    background-color: #e1e0e0;
+
+}
+
+.headd {
+    background-color: black;
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+.headd1 {
+    background-color: green;
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+.li {
+    background-color: white;
+
+    color: black;
+
+}
+
+.box ul li button {
+
+    border: 2px solid grey;
+    font-size: 17px;
+    background-color: green;
+    padding: 5px 21px;
+}
+
+.box ul li button:hover {
+
+    color: grey;
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.forthsection {
+    background-color: #0696f7;
+
+
+
+}
+
+.forthheading {
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+}
+
+form {
+    font-size: 18px;
+    margin: 0px 35px;
+    color: black;
+
+}
+
+form input {
+    font-size: 20px;
+
+    padding: 10px 500px;
+}
+
+form button {
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0px 0 20px 0px;
+}
+
+form button:hover {
+
+    color: grey;
+    text-decoration: underline;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+
+    font-size: 15px;
+}
+
